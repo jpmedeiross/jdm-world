@@ -1,7 +1,7 @@
 const Cars = () => {
     return (
-        <div>
-            <p>Carros!!!!</p>
+        <div className="text-center p-4">
+            <p className="text-center">Carros!!</p>
         </div>
     )
 }
