@@ -1,8 +1,21 @@
-# React + Vite
+# Carros JDM - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi criado com o objetivo de estudar e praticar desenvolvimento front-end utilizando **React**, **Vite** e **TailwindCSS**. Ele explora conceitos de roteamento com o React Router e estilização moderna, enquanto exibe uma lista de carros japoneses lendários da cultura JDM.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://react.dev/): Biblioteca para construção de interfaces de usuário.
+- [Vite](https://vitejs.dev/): Ferramenta de build moderna e rápida.
+- [TailwindCSS](https://tailwindcss.com/): Framework de utilitários para estilização.
+- [React Router](https://reactrouter.com/): Biblioteca para gerenciamento de rotas.
+- [Vercel](https://vercel.com/): Plataforma de deploy para projetos web.
+
+## Funcionalidades
+
+- Página inicial com informações introdutórias sobre carros JDM.
+- Página detalhada com uma lista de carros JDM, incluindo imagens e descrições.
+- Roteamento SPA (Single Page Application) com React Router.
+
+## Objetivo do Projeto
+
+Este projeto foi criado exclusivamente para fins de estudo e aprimoramento em desenvolvimento web.
