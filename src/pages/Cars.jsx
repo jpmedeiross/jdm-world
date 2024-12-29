@@ -2,22 +2,29 @@ import cars from "../data/carsData";
 
 const Cars = () => {
     return (
-        <div className="p-4">
-            <h1 className="text-3xl font-bold text-center mb-6">Carros JDM</h1>
-            <div className="space-y-6">
+        <div className="p-6 bg-slate-800">
+
+            <h1 className="text-4xl font-extrabold text-center text-blue-700 mb-8">
+                Carros JDM
+            </h1>
+
+
+            <div className="flex flex-col items-center gap-6">
                 {cars.map((car) => (
                     <div
                         key={car.id}
-                        className="border rounded shadow hover:shadow-lg p-4 flex flex-col items-center"
+                        className="bg-slate-600 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 max-w-md w-full"
                     >
+
                         <img
                             src={car.image}
                             alt={car.name}
-                            className="w-full max-w-md h-auto object-cover rounded mb-4"
+                            className="w-full h-48 object-cover"
                         />
-                        <h2 className="text-xl font-bold mb-2">{car.name}</h2>
-                        <p className="text-gray-600 mb-2">Ano: {car.year}</p>
-                        <p className="text-gray-700 text-center">{car.description}</p>
+                        <div className="p-4">
+                            <h2 className="text-xl font-bold text-black mb-2">{car.name}</h2>
+                            <p className="text-black text-sm">{car.description}</p>
+                        </div>
                     </div>
                 ))}
             </div>
